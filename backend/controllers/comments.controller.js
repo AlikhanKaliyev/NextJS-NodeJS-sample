@@ -1,4 +1,3 @@
-const { resolve } = require('styled-jsx/css');
 const {comments,users,blogs} = require('../models')
 
 const getComments = async id => {
